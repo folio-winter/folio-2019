@@ -32,18 +32,11 @@ jobs:
       uses: jcblw/bash@1.0.0
     - run: ls -l && cd dist && ls -l
     
-    - name: Setup GIT token
-      uses: fregante/setup-git-token@v1
-      with:
-        # The token provided by GitHub actions via secrets.GITHUB_TOKEN
-        token: ${{ secrets.GITHUB_TOKEN }}
-        # The name that will be used as "Author" of future commits
-        name: WinterChenS # optional, default is GitHub actions
-        # The email that will be used as "Author" of future commits
-        email: 1085143002@qq.com # optional, default is actions@users.noreply.github.com
     
     - name: Push directory to another repository
       uses: cpina/github-action-push-to-another-repository@v1.1
+      env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
         # Source directory from the origin directory
         source-directory: ./dist/

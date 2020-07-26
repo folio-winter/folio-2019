@@ -174,85 +174,85 @@ export default class ProjectsSection
                     { type: 'cssda', x: 7.2, y: 4.15 }
                 ]
             }
-            // ,
-            // {
-            //     name: 'gleecChat',
-            //     imageSources:
-            //     [
-            //         projectsGleecChatSlideASources,
-            //         projectsGleecChatSlideBSources,
-            //         projectsGleecChatSlideCSources,
-            //         projectsGleecChatSlideDSources
-            //     ],
-            //     floorTexture: this.resources.items.projectsGleecChatFloorTexture,
-            //     link:
-            //     {
-            //         href: 'http://gleec.imm-g-prod.com',
-            //         x: - 4.8,
-            //         y: - 3.4,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions:
-            //     [
-            //         { type: 'awwwards', x: 3.95, y: 4.15 },
-            //         { type: 'fwa', x: 5.6, y: 4.15 },
-            //         { type: 'cssda', x: 7.2, y: 4.15 }
-            //     ]
-            // },
-            // {
-            //     name: 'refletCommunication',
-            //     imageSources:
-            //     [
-            //         projectsRefletCommunicationSlideASources,
-            //         projectsRefletCommunicationSlideBSources,
-            //         projectsRefletCommunicationSlideCSources,
-            //         projectsRefletCommunicationSlideDSources
-            //     ],
-            //     floorTexture: this.resources.items.projectsRefletCommunicationFloorTexture,
-            //     link:
-            //     {
-            //         href: 'https://www.refletcommunication.com',
-            //         x: - 4.8,
-            //         y: - 3,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions:
-            //     [
-            //         { type: 'awwwards', x: 3.95, y: 4.15 },
-            //         { type: 'fwa', x: 5.6, y: 4.15 },
-            //         { type: 'cssda', x: 7.2, y: 4.15 }
-            //     ]
-            // },
-            // {
-            //     name: 'keppler',
-            //     imageSources:
-            //     [
-            //         projectsKepplerSlideASources,
-            //         projectsKepplerSlideBSources,
-            //         projectsKepplerSlideCSources
-            //     ],
-            //     floorTexture: this.resources.items.projectsKepplerFloorTexture,
-            //     link:
-            //     {
-            //         href: 'https://brunosimon.github.io/keppler/',
-            //         x: 2.75,
-            //         y: - 1.1,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions: []
-            // }
+            ,
+            {
+                name: 'gleecChat',
+                imageSources:
+                [
+                    projectsGleecChatSlideASources,
+                    projectsGleecChatSlideBSources,
+                    projectsGleecChatSlideCSources,
+                    projectsGleecChatSlideDSources
+                ],
+                floorTexture: this.resources.items.projectsGleecChatFloorTexture,
+                link:
+                {
+                    href: 'http://gleec.imm-g-prod.com',
+                    x: - 4.8,
+                    y: - 3.4,
+                    halfExtents:
+                    {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                },
+                distinctions:
+                [
+                    { type: 'awwwards', x: 3.95, y: 4.15 },
+                    { type: 'fwa', x: 5.6, y: 4.15 },
+                    { type: 'cssda', x: 7.2, y: 4.15 }
+                ]
+            },
+            {
+                name: 'refletCommunication',
+                imageSources:
+                [
+                    projectsRefletCommunicationSlideASources,
+                    projectsRefletCommunicationSlideBSources,
+                    projectsRefletCommunicationSlideCSources,
+                    projectsRefletCommunicationSlideDSources
+                ],
+                floorTexture: this.resources.items.projectsRefletCommunicationFloorTexture,
+                link:
+                {
+                    href: 'https://www.refletcommunication.com',
+                    x: - 4.8,
+                    y: - 3,
+                    halfExtents:
+                    {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                },
+                distinctions:
+                [
+                    { type: 'awwwards', x: 3.95, y: 4.15 },
+                    { type: 'fwa', x: 5.6, y: 4.15 },
+                    { type: 'cssda', x: 7.2, y: 4.15 }
+                ]
+            },
+            {
+                name: 'keppler',
+                imageSources:
+                [
+                    projectsKepplerSlideASources,
+                    projectsKepplerSlideBSources,
+                    projectsKepplerSlideCSources
+                ],
+                floorTexture: this.resources.items.projectsKepplerFloorTexture,
+                link:
+                {
+                    href: 'https://brunosimon.github.io/keppler/',
+                    x: 2.75,
+                    y: - 1.1,
+                    halfExtents:
+                    {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                },
+                distinctions: []
+            }
         ]
     }
 

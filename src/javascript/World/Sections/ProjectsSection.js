@@ -6,12 +6,6 @@ import projectsCitrixRedbullSlideASources from '../../../models/projects/citrixR
 import projectsCitrixRedbullSlideBSources from '../../../models/projects/citrixRedbull/slideB.jpg'
 import projectsCitrixRedbullSlideCSources from '../../../models/projects/citrixRedbull/slideC.jpg'
 
-// import projectsPriorHoldingsSlideASources from '../../../models/projects/priorHoldings/slideA.jpg'
-// import projectsPriorHoldingsSlideBSources from '../../../models/projects/priorHoldings/slideB.jpg'
-// import projectsPriorHoldingsSlideCSources from '../../../models/projects/priorHoldings/slideC.jpg'
-import projectsPriorHoldingsSlideASources from 'http://img.winterchen.com/DSC_0001.jpg'
-import projectsPriorHoldingsSlideBSources from 'http://img.winterchen.com/DSC_0019.jpg'
-import projectsPriorHoldingsSlideCSources from 'http://img.winterchen.com/DSC_0013.jpg'
 
 import projectsOranoSlideASources from '../../../models/projects/orano/slideA.jpg'
 import projectsOranoSlideBSources from '../../../models/projects/orano/slideB.jpg'
@@ -110,7 +104,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsPriorHoldingsFloorTexture,
                 link:
                 {
-                    href: 'https://prior.co.jp/discover/',
+                    href: 'https://blog.winterchen.com',
                     x: - 4.8,
                     y: - 3,
                     halfExtents:
@@ -137,7 +131,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsOranoFloorTexture,
                 link:
                 {
-                    href: 'https://www.orano.group/experience/innovation/',
+                    href: 'https://photo.winterchen.com',
                     x: - 4.8,
                     y: - 3.4,
                     halfExtents:
@@ -164,7 +158,7 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
                 link:
                 {
-                    href: 'https://thenewmobileworkforce.imm-g-prod.com/',
+                    href: 'https://resume.winterchen.com',
                     x: - 4.8,
                     y: - 4.4,
                     halfExtents:
@@ -179,85 +173,86 @@ export default class ProjectsSection
                     { type: 'fwa', x: 5.6, y: 4.15 },
                     { type: 'cssda', x: 7.2, y: 4.15 }
                 ]
-            },
-            {
-                name: 'gleecChat',
-                imageSources:
-                [
-                    projectsGleecChatSlideASources,
-                    projectsGleecChatSlideBSources,
-                    projectsGleecChatSlideCSources,
-                    projectsGleecChatSlideDSources
-                ],
-                floorTexture: this.resources.items.projectsGleecChatFloorTexture,
-                link:
-                {
-                    href: 'http://gleec.imm-g-prod.com',
-                    x: - 4.8,
-                    y: - 3.4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            {
-                name: 'refletCommunication',
-                imageSources:
-                [
-                    projectsRefletCommunicationSlideASources,
-                    projectsRefletCommunicationSlideBSources,
-                    projectsRefletCommunicationSlideCSources,
-                    projectsRefletCommunicationSlideDSources
-                ],
-                floorTexture: this.resources.items.projectsRefletCommunicationFloorTexture,
-                link:
-                {
-                    href: 'https://www.refletcommunication.com',
-                    x: - 4.8,
-                    y: - 3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            {
-                name: 'keppler',
-                imageSources:
-                [
-                    projectsKepplerSlideASources,
-                    projectsKepplerSlideBSources,
-                    projectsKepplerSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsKepplerFloorTexture,
-                link:
-                {
-                    href: 'https://brunosimon.github.io/keppler/',
-                    x: 2.75,
-                    y: - 1.1,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions: []
             }
+            // ,
+            // {
+            //     name: 'gleecChat',
+            //     imageSources:
+            //     [
+            //         projectsGleecChatSlideASources,
+            //         projectsGleecChatSlideBSources,
+            //         projectsGleecChatSlideCSources,
+            //         projectsGleecChatSlideDSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsGleecChatFloorTexture,
+            //     link:
+            //     {
+            //         href: 'http://gleec.imm-g-prod.com',
+            //         x: - 4.8,
+            //         y: - 3.4,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'awwwards', x: 3.95, y: 4.15 },
+            //         { type: 'fwa', x: 5.6, y: 4.15 },
+            //         { type: 'cssda', x: 7.2, y: 4.15 }
+            //     ]
+            // },
+            // {
+            //     name: 'refletCommunication',
+            //     imageSources:
+            //     [
+            //         projectsRefletCommunicationSlideASources,
+            //         projectsRefletCommunicationSlideBSources,
+            //         projectsRefletCommunicationSlideCSources,
+            //         projectsRefletCommunicationSlideDSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsRefletCommunicationFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://www.refletcommunication.com',
+            //         x: - 4.8,
+            //         y: - 3,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'awwwards', x: 3.95, y: 4.15 },
+            //         { type: 'fwa', x: 5.6, y: 4.15 },
+            //         { type: 'cssda', x: 7.2, y: 4.15 }
+            //     ]
+            // },
+            // {
+            //     name: 'keppler',
+            //     imageSources:
+            //     [
+            //         projectsKepplerSlideASources,
+            //         projectsKepplerSlideBSources,
+            //         projectsKepplerSlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsKepplerFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://brunosimon.github.io/keppler/',
+            //         x: 2.75,
+            //         y: - 1.1,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions: []
+            // }
         ]
     }
 

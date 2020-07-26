@@ -88,20 +88,20 @@ export default class InformationSection
 
         // Options
         this.links.options = [
+            // {
+            //     href: 'https://twitter.com/bruno_simon/',
+            //     labelTexture: this.resources.items.informationContactTwitterLabelTexture
+            // },
             {
-                href: 'https://twitter.com/bruno_simon/',
-                labelTexture: this.resources.items.informationContactTwitterLabelTexture
-            },
-            {
-                href: 'https://github.com/brunosimon/',
+                href: 'https://github.com/winterchens/',
                 labelTexture: this.resources.items.informationContactGithubLabelTexture
             },
+            // {
+            //     href: 'https://www.linkedin.com/in/simonbruno77/',
+            //     labelTexture: this.resources.items.informationContactLinkedinLabelTexture
+            // },
             {
-                href: 'https://www.linkedin.com/in/simonbruno77/',
-                labelTexture: this.resources.items.informationContactLinkedinLabelTexture
-            },
-            {
-                href: 'mailto:simon.bruno.77@gmail.com',
+                href: 'mailto:i@winterchen.com',
                 labelTexture: this.resources.items.informationContactMailLabelTexture
             }
         ]

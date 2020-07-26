@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x]
+        node-version: '14.x'
 
     steps:
     - uses: actions/checkout@v2
@@ -30,5 +30,17 @@ jobs:
     
     - name: Bash for GitHub Actions
       uses: jcblw/bash@1.0.0
-    - run: ls -l
+    - run: ls -l && cd dist && ls -l
+    
+    - name: git-bash
+      uses: fnkr/github-action-git-bash@v1.1
+    - run: git clone https://github.com/folio-winter/folio-winter.github.io.git folio-winter.github.io
+    
+    - name: Copy file
+      uses: canastro/copy-action@0.0.2
+      with:
+        # Source file
+        source: dist/
+        # Target file
+        target: folio-winter.github.io
       

@@ -34,7 +34,7 @@ jobs:
     
     - name: git-bash
       uses: fnkr/github-action-git-bash@v1.1
-    - run: cd $GITHUB_WORKSPACE && git clone https://github.com/folio-winter/folio-winter.github.io.git folio-winter.github.io
+    - run: git clone https://github.com/folio-winter/folio-winter.github.io.git folio-winter.github.io
     
     - name: Copy file
       uses: canastro/copy-action@0.0.2
@@ -42,5 +42,5 @@ jobs:
         # Source file
         source: ./dist/*
         # Target file
-        target: $GITHUB_WORKSPACE/folio-winter.github.io/
+        target: ./folio-winter.github.io/
       

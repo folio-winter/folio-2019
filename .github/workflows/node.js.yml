@@ -42,9 +42,9 @@ jobs:
         # Source directory from the origin directory
         source-directory: ./dist/
         # Name of the destination username/organization
-        destination-github-username: WinterChenS
+        destination-github-username: folio-winter
         # Destination repository
-        destination-repository-name: folio-winter/folio-winter.github.io
+        destination-repository-name: folio-winter.github.io
         # Email for the git commit
         user-email: 1085143002@qq.com
       

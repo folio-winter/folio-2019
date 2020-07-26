@@ -2,9 +2,9 @@ import * as THREE from 'three'
 import Project from './Project'
 import TweenLite from 'gsap/TweenLite'
 
-import projectsCitrixRedbullSlideASources from '../../../models/projects/citrixRedbull/slideA.jpg'
-import projectsCitrixRedbullSlideBSources from '../../../models/projects/citrixRedbull/slideB.jpg'
-import projectsCitrixRedbullSlideCSources from '../../../models/projects/citrixRedbull/slideC.jpg'
+// import projectsCitrixRedbullSlideASources from '../../../models/projects/citrixRedbull/slideA.jpg'
+// import projectsCitrixRedbullSlideBSources from '../../../models/projects/citrixRedbull/slideB.jpg'
+// import projectsCitrixRedbullSlideCSources from '../../../models/projects/citrixRedbull/slideC.jpg'
 
 import projectsPriorHoldingsSlideASources from '../../../models/projects/priorHoldings/slideA.jpg'
 import projectsPriorHoldingsSlideBSources from '../../../models/projects/priorHoldings/slideB.jpg'
@@ -14,19 +14,19 @@ import projectsOranoSlideASources from '../../../models/projects/orano/slideA.jp
 import projectsOranoSlideBSources from '../../../models/projects/orano/slideB.jpg'
 import projectsOranoSlideCSources from '../../../models/projects/orano/slideC.jpg'
 
-import projectsGleecChatSlideASources from '../../../models/projects/gleecChat/slideA.jpg'
-import projectsGleecChatSlideBSources from '../../../models/projects/gleecChat/slideB.jpg'
-import projectsGleecChatSlideCSources from '../../../models/projects/gleecChat/slideC.jpg'
-import projectsGleecChatSlideDSources from '../../../models/projects/gleecChat/slideD.jpg'
+// import projectsGleecChatSlideASources from '../../../models/projects/gleecChat/slideA.jpg'
+// import projectsGleecChatSlideBSources from '../../../models/projects/gleecChat/slideB.jpg'
+// import projectsGleecChatSlideCSources from '../../../models/projects/gleecChat/slideC.jpg'
+// import projectsGleecChatSlideDSources from '../../../models/projects/gleecChat/slideD.jpg'
 
-import projectsRefletCommunicationSlideASources from '../../../models/projects/refletCommunication/slideA.jpg'
-import projectsRefletCommunicationSlideBSources from '../../../models/projects/refletCommunication/slideB.jpg'
-import projectsRefletCommunicationSlideCSources from '../../../models/projects/refletCommunication/slideC.jpg'
-import projectsRefletCommunicationSlideDSources from '../../../models/projects/refletCommunication/slideD.jpg'
+// import projectsRefletCommunicationSlideASources from '../../../models/projects/refletCommunication/slideA.jpg'
+// import projectsRefletCommunicationSlideBSources from '../../../models/projects/refletCommunication/slideB.jpg'
+// import projectsRefletCommunicationSlideCSources from '../../../models/projects/refletCommunication/slideC.jpg'
+// import projectsRefletCommunicationSlideDSources from '../../../models/projects/refletCommunication/slideD.jpg'
 
-import projectsKepplerSlideASources from '../../../models/projects/keppler/slideA.jpg'
-import projectsKepplerSlideBSources from '../../../models/projects/keppler/slideB.jpg'
-import projectsKepplerSlideCSources from '../../../models/projects/keppler/slideC.jpg'
+// import projectsKepplerSlideASources from '../../../models/projects/keppler/slideA.jpg'
+// import projectsKepplerSlideBSources from '../../../models/projects/keppler/slideB.jpg'
+// import projectsKepplerSlideCSources from '../../../models/projects/keppler/slideC.jpg'
 
 export default class ProjectsSection
 {
@@ -149,34 +149,35 @@ export default class ProjectsSection
                     { type: 'fwa', x: 5.6, y: 4.15 },
                     { type: 'cssda', x: 7.2, y: 4.15 }
                 ]
-            },
-            {
-                name: 'citrixRedbull',
-                imageSources:
-                [
-                    projectsCitrixRedbullSlideASources,
-                    projectsCitrixRedbullSlideBSources,
-                    projectsCitrixRedbullSlideCSources
-                ],
-                floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
-                link:
-                {
-                    href: 'https://resume.winterchen.com',
-                    x: - 4.8,
-                    y: - 4.4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
             }
+            // ,
+            // {
+            //     name: 'citrixRedbull',
+            //     imageSources:
+            //     [
+            //         projectsCitrixRedbullSlideASources,
+            //         projectsCitrixRedbullSlideBSources,
+            //         projectsCitrixRedbullSlideCSources
+            //     ],
+            //     floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
+            //     link:
+            //     {
+            //         href: 'https://resume.winterchen.com',
+            //         x: - 4.8,
+            //         y: - 4.4,
+            //         halfExtents:
+            //         {
+            //             x: 3.2,
+            //             y: 1.5
+            //         }
+            //     },
+            //     distinctions:
+            //     [
+            //         { type: 'awwwards', x: 3.95, y: 4.15 },
+            //         { type: 'fwa', x: 5.6, y: 4.15 },
+            //         { type: 'cssda', x: 7.2, y: 4.15 }
+            //     ]
+            // }
             // ,
             // {
             //     name: 'gleecChat',

@@ -30,8 +30,17 @@ jobs:
     
     - name: Bash for GitHub Actions
       uses: jcblw/bash@1.0.0
-    - run: ls -l && cd dist && ls -l
+    - run: touch dist/CNAME
     
+    - name: Write File
+      uses: DamianReeves/write-file-action@v1.0
+      with:
+        # The path to the file to write
+        path: dist/CNAME
+        # The contents of the file
+        contents: https://folio.winterchen.com
+        # The mode of writing to use: `overwrite`, `append`, or `preserve`.
+        write-mode: preserve # optional, default is preserve
     
     - name: Push directory to another repository
       uses: cpina/github-action-push-to-another-repository@v1.1

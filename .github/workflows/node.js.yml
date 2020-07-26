@@ -36,8 +36,8 @@ jobs:
       uses: fnkr/github-action-git-bash@v1.1
     - run: git clone https://github.com/folio-winter/folio-winter.github.io.git folio-winter.github.io
     
-    - name: Copy file
-      uses: canastro/copy-action@0.0.2
+    - name: Copy Directory
+      uses: MadaraUchiha/copy-action@0.0.1
       with:
         # Source file
         source: ./dist/*

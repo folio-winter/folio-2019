@@ -97,7 +97,7 @@ export default class InformationSection
                 labelTexture: this.resources.items.informationContactGithubLabelTexture
             },
             {
-                href: '#',
+                href: 'https://blog.winterchen.com',
                 labelTexture: this.resources.items.informationContactLinkedinLabelTexture
             },
             {

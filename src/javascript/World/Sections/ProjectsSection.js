@@ -6,9 +6,12 @@ import projectsCitrixRedbullSlideASources from '../../../models/projects/citrixR
 import projectsCitrixRedbullSlideBSources from '../../../models/projects/citrixRedbull/slideB.jpg'
 import projectsCitrixRedbullSlideCSources from '../../../models/projects/citrixRedbull/slideC.jpg'
 
-import projectsPriorHoldingsSlideASources from '../../../models/projects/priorHoldings/slideA.jpg'
-import projectsPriorHoldingsSlideBSources from '../../../models/projects/priorHoldings/slideB.jpg'
-import projectsPriorHoldingsSlideCSources from '../../../models/projects/priorHoldings/slideC.jpg'
+// import projectsPriorHoldingsSlideASources from '../../../models/projects/priorHoldings/slideA.jpg'
+// import projectsPriorHoldingsSlideBSources from '../../../models/projects/priorHoldings/slideB.jpg'
+// import projectsPriorHoldingsSlideCSources from '../../../models/projects/priorHoldings/slideC.jpg'
+import projectsPriorHoldingsSlideASources from 'http://img.winterchen.com/DSC_0001.jpg'
+import projectsPriorHoldingsSlideBSources from 'http://img.winterchen.com/DSC_0019.jpg'
+import projectsPriorHoldingsSlideCSources from 'http://img.winterchen.com/DSC_0013.jpg'
 
 import projectsOranoSlideASources from '../../../models/projects/orano/slideA.jpg'
 import projectsOranoSlideBSources from '../../../models/projects/orano/slideB.jpg'

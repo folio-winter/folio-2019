@@ -5,9 +5,10 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - master # 代码提交的时候触发构建部署
+  schedule:
+    - cron: "0 14 * * *"  # 定时任务：每天下午14点钟触发
 
 jobs:
   build:

@@ -32,8 +32,8 @@ import introInstructionsOtherSource from '../models/intro/instructions/other.png
 import introArrowKeyBaseSource from '../models/intro/arrowKey/base.glb'
 import introArrowKeyCollisionSource from '../models/intro/arrowKey/collision.glb'
 
-import introBBaseSource from '../models/intro/b/base.glb'
-import introBCollisionSource from '../models/intro/b/collision.glb'
+import introWBaseSource from '../models/intro/w/base.glb'
+import introWCollisionSource from '../models/intro/w/collision.glb'
 
 import introRBaseSource from '../models/intro/r/base.glb'
 import introRCollisionSource from '../models/intro/r/collision.glb'
@@ -240,8 +240,8 @@ export default class Resources extends EventEmitter
             { name: 'introArrowKeyBase', source: introArrowKeyBaseSource },
             { name: 'introArrowKeyCollision', source: introArrowKeyCollisionSource },
 
-            { name: 'introBBase', source: introBBaseSource },
-            { name: 'introBCollision', source: introBCollisionSource },
+            { name: 'introWBase', source: introWBaseSource },
+            { name: 'introWCollision', source: introWCollisionSource },
 
             { name: 'introRBase', source: introRBaseSource },
             { name: 'introRCollision', source: introRCollisionSource },

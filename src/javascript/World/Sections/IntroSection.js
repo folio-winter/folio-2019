@@ -157,12 +157,13 @@ export default class IntroSection
         })
     }
 
+    // 场景进入的标题 BRUNO SIMON
     setTitles()
     {
         // Title
         this.objects.add({
-            base: this.resources.items.introBBase.scene,
-            collision: this.resources.items.introBCollision.scene,
+            base: this.resources.items.introWBase.scene,
+            collision: this.resources.items.introWCollision.scene,
             offset: new THREE.Vector3(0, 0, 0),
             rotation: new THREE.Euler(0, 0, 0),
             shadow: { sizeX: 1.5, sizeY: 1.5, offsetZ: - 0.6, alpha: 0.4 },
